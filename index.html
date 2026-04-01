@@ -1,209 +1,201 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio of Akanksha</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <style>
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background: url("premium_photo-1683309565422-77818a287060.avif") no-repeat center center fixed;
-            background-size: cover;
-            background-attachment: fixed;
-            
-}
-        .navbar {
-            background: linear-gradient(45deg, #cbb211, #f67284);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-        }
-            
-        
-        .navbar-brand, .nav-link {
-            color: #070707 !important;
-        }
-    
-        .nav-link:hover {
-            color: #f2962d !important;
-        }
-        h1 {
-    font-size: 42px;
-    color: #222;
-    text-align: left;
-    margin-top: 20px;
-}
-
-h2 {
-    color: #333;
-    border-left: 5px solid #f0a5a5;
-    padding-left: 10px;
-    margin-bottom: 15px;
-}
-
-        
-
-        section {
-              background: rgba(255, 255, 255, 0.9);
-              padding: 25px;
-              margin: 20px;
-              border-radius: 15px;
-              box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-              transition: 0.3s;
-        }
-
-        section:hover {
-        transform: translateY(-6px);
-}
-
-
-        p {
-            color: #020b15;
-            font-size: 1.1em;
-        }
-    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Akanksha Pattnaik - Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">AP</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#About">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Projects">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Links">Links</a>
-        </li>
-        </ul>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="#home" class="logo">AP</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">skills</a>
+            <a href="#testimonials">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="WhatsApp Image 2026-03-27 at 15.19.30.jpeg" alt="Profile Image">
         </div>
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1>Akanksha Pattnaik</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a passionate and dedicated web development enthusiast with a strong interest in creating clean and user-friendly websites. I have basic knowledge of HTML, CSS, and JavaScript, and I enjoy learning new technologies to improve my skills. I am eager to build real-world projects and grow as a developer.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/akanksha-pattnaik-751b59211" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/akankshapattnaik" target="_blank"><i class='bx bxl-github' ></i></a>
+                
+            </div>
+            <a href="White simple student CV resume (1).pdf" class="btn">View CV</a>
         </div>
-    </nav>
-    <div class="container mt-5">
-            <h1 class="gradient-text">Welcome to Akanksha's Portfolio</h1>
-            <p>
-                🎓 MCA Student<br>
-                💻 Web Developer<br>
-                🌐 HTML | CSS | JavaScript<br>
-                🚀 Always learning & growing<br>
-            </p>
-            
-    
-    </div>
 
-            <section id="About" class="container mt-5">
-  <h2><i>About Me</i></h2>
+        
+    </section>
 
-  <div class="row mt-4">
-    
-    <!-- Left Column -->
-    <div class="col-md-6">
-      <p>
-        Hi! I'm an MCA student who loves turning ideas into reality through code.
-        I enjoy designing clean and attractive user interfaces and building functional 
-        web applications. I am constantly learning and exploring new tools to grow as a developer.
-      </p>
-    </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span> </h2>
+            <h3>I'm a <span>Frontend Developer</span></h3>
+            <p>I am a passionate and dedicated web development enthusiast with a strong interest in creating clean and user-friendly websites.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="about-img">
+            <img src="WhatsApp Image 2026-03-27 at 15.19.30.jpeg" alt="About Image">
+        </div>
+    </section>
 
-    <!-- Right Column -->
-    <div class="col-md-6">
-      <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="WhatsApp Image 2026-03-27 at 15.19.30.jpeg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Akanksha Pattnaik</h5>
-        <p class="card-text">I'm currently pursuing my Master of Computer Applications (MCA) from Utkal University.</p>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
+     <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 class="heading">My <span>Skills</span> </h2>
 
-  </div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Development</h3>
+                <p>I have hands-on experience in HTML, CSS, JavaScript, and Bootstrap, along with tools like VS Code and GitHub. I build responsive websites using Flexbox and Grid, and I focus on clean design and smooth user experience</p>
+                
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette' ></i>
+                <h3>UI/UX Design</h3>
+                <p>I have a keen eye for design and a strong understanding of user experience principles. I create intuitive and visually appealing interfaces that provide an excellent user experience.</p>
+                
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android' ></i>
+                <h3>Frontend Development</h3>
+                <p>I have a strong foundation in frontend technologies, including HTML, CSS, and JavaScript. I create responsive and interactive user interfaces that provide a great user experience.</p>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Testimonials Section -->
+
+    <section id="testimonials" class="testimonials">
+    <h2 class="heading">My <span>Education</span></h2>
+
+    <div class="education-container">
+
+        <div class="education-box">
+            <h3>Master Of Computer Applications</h3>
+            <p>DDCE, Utkal University</p>
+            <span>2024 – 2026</span>
+            <h4>CGPA: 9</h4>
+        </div>
+
+        <div class="education-box">
+            <h3>Bachelor Of Science in Chemistry</h3>
+            <p>Ramadevi Women's University</p>
+            <span>2017 – 2020</span>
+            <h4>CGPA: 8.5</h4>
+        </div>
+
+        <div class="education-box">
+            <h3>Higher Secondary Education</h3>
+            <p>Kendriya Vidyalaya No. 1</p>
+            <span>2013 – 2015</span>
+            <h4>87%</h4>
+        </div>
+
+    </div>
+</section>
+          
+    <!-- Contact Section -->
+
+    <section id="contact" class="contact">
+    <h2 class="heading">Contact Me</h2>
+
+    <div class="contact-container">
+
+        <!-- Email -->
+        <div class="contact-card">
+            <i class='bx bx-envelope'></i>
+            <h3>Email</h3>
+            <p><a href="mailto:akankshapattnaik10@gmail.com">akankshapattnaik10@gmail.com</a></p>
+            <button onclick="copyText('email')">Copy</button>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-card">
+            <i class='bx bx-phone'></i>
+            <h3>Phone</h3>
+            <p><a href="tel:+918917374533">+91 8917374533</a></p>
+            <button onclick="copyText('phone')">Copy</button>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="contact-card">
+            <i class='bx bxl-linkedin'></i>
+            <h3>LinkedIn</h3>
+            <p>View Profile</p>
+            <a href="https://www.linkedin.com/in/akanksha-pattnaik-751b59211" target="_blank" class="link-btn">Open</a>
+        </div>
+
+        <!-- GitHub -->
+        <div class="contact-card">
+            <i class='bx bxl-github'></i>
+            <h3>GitHub</h3>
+            <a href="https://github.com/akankshapattnaik" target="_blank" class="link-btn">Open</a>
+        </div>
+
+    </div>
 </section>
 
-            <section id="Contact" class="container mt-5">
-            <h2><i>Contact Information</i></h2>
-            <p>Email: <a href="mailto:akankshapattnaik10@gmail.com">akankshapattnaik10@gmail.com</a></p>
-            <p>Phone: <a href="tel:+91-8917374533">+91-8917374533</a></p>
-            </section>
+    <!-- Footer Section -->
 
-            <section id="Education" class="container mt-5">
-            <h3><i>Education</i></h3>
-            <div class="row">
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Master of Computer Applications</h5>
-        <p class="card-text">Utkal University(2024-2026)</p>
-        <p class="card-text">CGPA: 9</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Bachelor of Science</h5>
-        <p class="card-text">Ramadevi Women's University(2017-2020)</p>
-        <p class="card-text">CGPA: 8.5</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Higher Secondary Education</h5>
-        <p class="card-text">Kendriya vidyalaya NO.1(2014-2015)</p>
-        <p class="card-text">Percentage: 87%</p>
-      </div>
-    </div>
-  </div>
-</div>
-             </section>
-            
-    <section id="Projects" class="container mt-5">
-        <h4><i>Projects</i></h4>
-        <ul class="list-group">
-  <li class="list-group-item">Registration Form</li>
-  <li class="list-group-item">Login Form</li>
-  <li class="list-group-item">My Portfolio</li>
-  
-</ul>
-    </section>
-    <section id="Skills" class="container mt-5">
-    <h3><i>Skills</i></h3>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        
-    </ul>
-    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/akanksha-pattnaik-751b59211"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/akankshapattnaik"><i class='bx bxl-github' ></i></a>
+                
+        </div>
 
-    <section id="Links" class="container mt-5">
-    <h3><i>Links</i></h3>
-    <p><a href="https://www.linkedin.com/in/akanksha-pattnaik-9b1a4b1b7/">LinkedIn</a></p>
-    </section>
+        <p class="copyright">
+            © Akanksha Pattnaik 2026.
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    </body> 
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+}
+
+window.onscroll = () => {
+    menu.classList.remove('bx-x');
+    navbar.classList.remove('active');
+}
+
+const typed = new Typed('.multiple-text',  {
+    strings: ['Frontend Developer', 'Backend Developer', 'Web Designer', 'UI/UX Designer'],
+    typeSpeed: 80,
+    backSpeed: 80,
+    backDelay: 1200,
+    loop: true,
+ });
+    </script>
+</body>
 </html>
-
